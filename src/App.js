@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+import Navbar from './Navbar';
+import Mainheading from "./Mainheading"
+import 'https://kit.fontawesome.com/9c1c3f6a2e.js'
+import Converter from './Converter';
+import Comparison from './Comparison';
+import Contact from './Contact';
+import Footer from './Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Mainheading />
+      <Converter />
+      <Comparison />
+      <Contact />
+      <Footer />
+    </>
   );
 }
 

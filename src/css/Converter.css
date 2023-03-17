@@ -1,0 +1,79 @@
+@import url('./Vars.css');
+
+#converter{
+    height: 100vh;
+    /* background-color: var(--signature); */
+    background-color: #202124;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.converter-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.converter-left{
+    width: 47%;
+
+    /* border: 1px solid red; */
+}
+
+.converter-left-container>h1{
+    font-size: 4rem;
+    /* color: #181823; */
+    /* color: white; */
+    color: var(--signature);
+    line-height: 1;
+    margin: 0;
+    /* text-transform: uppercase; */
+}
+
+.converter-left-container>p{
+    /* color: #181823; */
+    color: white;
+    line-height: 1.5;
+
+}
+
+.converter-left-container>p>span{
+    color: var(--signature);
+}
+
+.converter-left-container>p:nth-child(2){
+    margin: 1.5rem 0;
+}
+
+.converter-left-container>p:nth-child(3){
+    margin: 1.5rem 0 0;
+
+}
+
+.converter-left-container>a{
+    margin: .5rem 0 0;
+    color: var(--signature);
+    text-decoration: underline;
+    text-underline-offset: .3em;
+}
+
+.converter-right{
+    width: 47%;
+    background-color: white;
+    /* background-color: var(--signature); */
+    border-radius: 2rem;
+    /* box-shadow: 0 0 .5rem var(--signature); */
+    border-bottom: 10px solid var(--signature);
+    /* border: 1px solid black; */
+}
+
+.converter-right-container{
+}
+
+.converter-right-container>div{
+    margin: 1rem 0;
+    height: 50px;
+
+    /* border: 1px solid red; */
+}
