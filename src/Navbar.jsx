@@ -34,7 +34,7 @@ function Navbar() {
     <header>
         <div className="navbar-container">
             <a href="#mainheading">
-                <img className='logo' src="https://studentambassadors.microsoft.com/Assets/Badge/LevelAlpha160x143.png" alt="" />
+                <img className='logo' src="https://wise.com/public-resources/assets/logos/wise-personal/logo_inverse.svg" alt="" />
             </a>
             <ul>
                 <a href="#exchange"><li>Exchange</li></a>

@@ -69,11 +69,98 @@
 }
 
 .converter-right-container{
+    padding: 2rem;
 }
 
-.converter-right-container>div{
-    margin: 1rem 0;
-    height: 50px;
+.input-amount-div,.amount-get-div{
+    display: flex;
+    flex-direction: column;
 
     /* border: 1px solid red; */
+}
+
+.input-amount-div>label,.amount-get-div>label{
+    margin-bottom: .5rem;
+    font-size: .8rem;
+}
+
+.input-amount-div>div>input,.amount-get-div>div>input{
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    width: 50%;
+    margin-right: .5rem;
+
+    /* border-right: none; */
+}
+
+.input-amount-div>div>select{
+    
+}
+
+.input-amount-div>div>select,.amount-get-div>div>select{
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    /* width: 30%; */
+}
+
+option{
+    background-image: url('https://wise.com/public-resources/assets/logos/wise-personal/logo_inverse.svg');
+    background-color: red;
+    padding: 5rem 0;
+}
+
+.converter-right-container>ul{
+    margin: 1rem 0;
+    padding: 0;
+
+
+}
+
+.converter-right-container>ul>li{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.converter-right-container>ul>li>i{
+    margin-right: .8rem;
+}
+
+.converter-right-container>ul>li>div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.converter-right-container>ul>li>div>p:nth-child(1){
+    font-weight: 600;
+}
+
+.save-upto>p>span{
+    font-weight: 600;
+}
+
+.converter-btns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    /* border: 1px solid red; */
+}
+
+.converter-btns>a{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--signature);
+    color: var(--secondary-bg);
+    font-weight: 600;
+    color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
 }
